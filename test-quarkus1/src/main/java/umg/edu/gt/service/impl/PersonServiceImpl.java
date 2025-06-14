@@ -6,7 +6,7 @@ import umg.edu.gt.service.IPersonService;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
-
+//A diferencia de IPersonService, esta clase contiene el código que realmente ejecuta la acción
 @ApplicationScoped
 public class PersonServiceImpl implements IPersonService {
 
